@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+
+@font-face {
+    font-family: "Bubbler";
+    src: url(../font/BubblerOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Chilanka";
+    src: url(../font/Chilanka-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Grunge";
+    src: url(../font/Grunge-Social-Media.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 0px;
+}
+
+/* HEADER */
+
+#inicio{
+    background-color: #000;
+    height: 100vh;
+}
+
+#titulos, #video_intro{
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#titulos{
+    background: url(../image/fondo.jpg) no-repeat 30% 30%;
+    background-size: cover;
+    text-align: center;
+    padding: 25vh 100px;
+    color: #fff;
+}
+
+h4{
+    font-family: 'Zen Loop', cursive;
+    font-size: 2.5rem;
+    color: #fff;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+#tendencia{
+    font-family: Chilanka, cursive;
+    font-size: 4.5rem;
+    margin-bottom: 30 px;
+}
+
+h3{
+    font-family: Bubbler, cursive;
+    font-size: 1.2rem;
+    letter-spacing:  3px;
+}
+
+#principal{
+    height: 100vh;
+}
+
+/* NAV */
+
+nav{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: rgba(148, 0, 211, 0.6);
+    text-align: right;
+    z-index: 1;
+}
+
+a{
+    font-family: 'Zen Loop', cursive;
+    font-size: 1.4rem;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 2px;
+    margin-right: 25px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bolder;
+}
+
+
+.contenedor{
+    text-align: center;
+    padding: 70px;
+}
+
+/* Tendencias */
+
+#tendencias{
+    background-image: linear-gradient(180deg, #ff9c6f 0, #ff9277 6.25%, #ff887e 12.5%, #ff7c87 18.75%, #ff708f 25%, #ff6398 31.25%, #ff55a2 37.5%, #ff48ab 43.75%, #f23cb5 50%, #df34bf 56.25%, #c833cb 62.5%, #ad38d6 68.75%, #8c40e1 75%, #5e48ec 81.25%, #0051f4 87.5%, #0058fb 93.75%, #005eff 100%);
+}
+
+.titulo{
+    font-family: Chilanka, cursive;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
+figure, #concepto_clay{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+figure h3{
+    font-size: 1.5rem;
+    font-family: 'Permanent Marker', cursive;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 250px;
+    text-align: center;
+}
+
+figcaption{
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: justify;
+    background-color: rgb(198, 162, 234);
+    padding: 10px;
+    font-family: Bubbler, cursive;
+    font-weight: 600;
+}
+
+#img_clay{
+    width: 60%;
+    margin: 20px;
+    float: right;
+}
+
+fieldset{
+    width: 90%;
+    background-color: #e8e8e8;
+    font-size: 1rem;
+    color: #000;
+    font-family: 'Permanent Marker', cursive;
+    border: 5px solid #0cbeff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px #000000;
+    margin: 0 auto;
+}
+
+legend{
+    color: #000000;
+    background-color: #0cbeff;
+    padding: 2px 10px;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 4px #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #abb1c6;
+}
+
+.icono{
+    color: #000000;
+    font-size: 4rem;
+}
+
+p{
+    text-align: justify;
+}
+
+p::first-letter{
+    font-size: 2.5rem;
+    float:left;
+    margin-right: 5px;
+
+}
+
+P > span{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhai', cursive;
+    text-shadow: 2px 2px 4px #000;
+}
+
+ul{
+    width: 40%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+ol{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+
+#tabla{
+    font-size: 1rem;
+    font-family: Chilanka, cursive;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+#tabla th{
+    background-color: #302f2f;
+    color: #fff;
+}
+
+#tabla th, #tabla td{
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+#tabla tr:nth-child(even){
+    background-color: #34a7d0;
+}
+
+
+#tabla tr:nth-child(odd){
+    background-color: rgb(145, 105, 168);
+}
+
+#tabla tr:hover{
+    background-color: #7fffd4;
+}
+
+
+#contacto{
+    background: url(../image/pxfuel.jpg) no-repeat fixed;
+    background-size: cover;
+    padding: 70px 0 10px 0;
+}
+
+#glass_estilo{
+    width: 50%;
+    margin: 0px auto;
+    border-radius: 10px;
+    background: #757879;
+    background-color: rgb(red, green, blue);
+    box-shadow: 0 8px 32px 0 rgb(12, 190, 255);
+    padding: 25px 15px;
+    border: 1px solid rgb(red, green, blue);
+}
+
+h2{
+    color: #7fffd4;
+    font-size: 4rem;
+    font-family: 'Chilanka', cursive;
+    text-shadow: 2px 2px 4px rgb(125, 119, 119);
+    margin: 20px;
+}
+
+input{
+    width: 90%;
+    padding: 12px 20px ;
+    margin: 10px;
+    border: none;
+    font-size: 1rem;
+    color: #000000;
+}
+
+input:focus{
+    background-color: #19e09e;
+    color: #fff;
+    outline: 0px;
+}
+
+
+input[type="submit"]{
+    background-color: #68bcd1;
+    width: 130px;
+    color: #c900fb;
+    letter-spacing: 2px;
+    font-family: cursive;
+    font-weight: bolder;
+    border-radius: 20px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+input[type="submit"]:hover{
+    background-color: #ff0000;
+    color: #4800ff;
+    cursor: pointer;
+}
+
+#mapa{
+    margin-top: 60px;
+    width: 100%;
+    height: 300px;
+    
+}
+
+/* medios */
+
+#medios{
+    background-color: #19e09e;
+
+}
+.multimedio{
+    margin-bottom: 30px;
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+#youtube{
+    width: 90%;
+    height: 380px;
+
+}
+#promo{
+    width: 90%;
+    height: 400px;
+    
+}
+/* Footer */
+
+footer{
+    background-color: #c833cb;
+
+}
+
+#rs, #derechos{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 50px;
+
+}
+
+#rs a{
+    font-family: Grunge, cursive;
+    padding-top: 30px;
+
+}
+
+#derechos{
+    font-size: 1rem;
+    color: ghostwhite;
+    font-family: 'Baloo Bhai', cursive;
+    text-align: right;
+
+}
